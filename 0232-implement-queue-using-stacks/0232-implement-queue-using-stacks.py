@@ -1,17 +1,17 @@
 class MyQueue:
 
     def __init__(self):
-        # Stack s1 is used for enqueue operations (push)
-        # Stack s2 is used for dequeue operations (pop, peek)
+        # Stack s1 for enqueue operations (push)
+        # Stack s2 for dequeue operations (pop, peek)
         self.s1 = []
         self.s2 = []
 
     def push(self, x: int) -> None:
-        # Always push new elements to s1
+        # Always push the new elements to s1
         self.s1.append(x)
 
     def pop(self) -> int:
-        # If s2 is empty, transfer all elements from s1 to s2
+        # If s2 is empty, we transfer all elements from s1 to s2
         # This reverses the order to simulate queue behavior
         if not self.s2:
             while self.s1:
