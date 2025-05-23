@@ -5,17 +5,17 @@ class Solution:
         R = n - 1  # Right pointer
         
         while L < R:
-            # Skip non-alphanumeric characters from the left
+            # Skip all the non-alphanumeric characters from the left
             if not s[L].isalnum():
                 L += 1
-                continue  # Skip the rest of the loop and move to the next character
+                continue  # Skips the rest of the loop and move to the next character
             
             # Skip non-alphanumeric characters from the right
             if not s[R].isalnum():
                 R -= 1
-                continue  # Skip the rest of the loop and move to the next character
+                continue  # Skips the rest of the loop and move to the next character
             
-            # Compare the characters in lowercase
+            # Now Compare the characters in lowercase
             if s[L].lower() != s[R].lower():
                 return False  # If mismatch found, it's not a palindrome
             
