@@ -28,7 +28,7 @@ class MyQueue:
         return self.s2[-1]
 
     def empty(self) -> bool:
-        # Queue is empty only if both stacks are empty
+        # Queue is empty only if both the stacks are empty
         return max(len(self.s1), len(self.s2)) == 0
      
         
