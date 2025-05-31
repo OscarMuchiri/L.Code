@@ -11,7 +11,7 @@ class Solution:
                 left += 1
 
 
-#Time Complexity o(n)  
+# Time Complexity o(n)  
         
 
 
