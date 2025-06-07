@@ -1,8 +1,8 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        nums.sort()
+        nums.sort() #increasing 
 
-        return nums[len(nums)//2]
+        return nums[len(nums)//2] #Exists at the middle
         
         
         
