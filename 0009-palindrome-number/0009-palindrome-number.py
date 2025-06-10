@@ -1,5 +1,5 @@
 class Solution:
-    def isPalindrome(self, x: int) -> bool:
+    def isPalindrome(self, x: int) -> bool: #212, 312
         if x < 0 or (x % 10 == 0 and x != 0): #Negatives are non palindromes
             return False
         
