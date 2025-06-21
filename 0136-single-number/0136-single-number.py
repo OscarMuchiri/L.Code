@@ -7,7 +7,7 @@ class Solution:
         # Loop through each number in the list
         for x in nums:
             # XOR the current number with the result
-            # Pairs cancel out (e.g., 4 ^ 4 = 0), so only the unique number remains
+            # Pairs cancel out (e.g., 4 ^ 4 = 0), so only the unique number remains eventually
             a ^= x
 
         # After the loop, 'a' will hold the number that appeared only once
