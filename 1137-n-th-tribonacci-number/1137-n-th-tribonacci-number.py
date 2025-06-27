@@ -10,7 +10,7 @@ class Solution:
         # Loop from 3 to n to compute the nth Tribonacci number
         for i in range(3, n + 1):
             # Shift the window: T(n-3) = T(n-2), T(n-2) = T(n-1), T(n-1) = T(n)
-            # The next Tribonacci number is the sum of the previous three
+            # The next Tribonacci number is the sum of the previous three elements
             t[0], t[1], t[2] = t[1], t[2], sum(t)
 
         # After the loop, t[2] holds the value of Tn
