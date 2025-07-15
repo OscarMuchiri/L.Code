@@ -1,6 +1,5 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        # result = [a,p,b,q]
         m = len(word1)
         n = len(word2)
 
@@ -16,7 +15,7 @@ class Solution:
                 result += word2[j]
                 j += 1
 
-        return ''.join(result)
+        return ''.join(result)  #conv array to result string
         
 
 
