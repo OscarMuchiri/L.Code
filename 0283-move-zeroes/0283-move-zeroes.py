@@ -12,6 +12,7 @@ class Solution:
 
 
 # Time Complexity o(n)  
+#Space complexity 0(1)
         
 
 
