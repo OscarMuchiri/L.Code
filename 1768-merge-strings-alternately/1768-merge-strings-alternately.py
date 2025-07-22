@@ -3,7 +3,7 @@ class Solution:
         m = len(word1)
         n = len(word2)
 
-        i, j = 0, 0   # two pointers 
+        i, j = 0, 0   #pointers 
         result = []  # empty array to append the characters
 
         while i < m or j < n:
