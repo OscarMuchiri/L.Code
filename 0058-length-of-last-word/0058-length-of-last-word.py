@@ -1,6 +1,6 @@
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
-        #Easier to Start from the end of the statement
+        #Start from the end of the statement
         #Skipping any trailing whitespaces at the end of the string
         #Then Count the characters in the last word
         #Return the length of the last word
